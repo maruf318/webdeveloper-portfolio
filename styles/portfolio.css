@@ -95,10 +95,22 @@ nav a {
   width: 585px;
 }
 /* Main section styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  /* margin auto means jototuku jayga ase vagavagi kore niye nao */
+}
 
 /* About section styles */
 .about {
   padding: 130px;
   background-color: #fff8f3;
   margin: 130px 0;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
 }
