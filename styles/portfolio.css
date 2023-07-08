@@ -100,6 +100,9 @@ main {
   margin: 0 auto;
   /* margin auto means jototuku jayga ase vagavagi kore niye nao */
 }
+main section {
+  margin-top: 130px;
+}
 
 /* About section styles */
 .about {
@@ -134,4 +137,13 @@ main {
   font-size: 16px;
 
   font-weight: 400;
+}
+
+/* Resume section styles */
+.resume-column-title {
+  color: #474747;
+
+  font-size: 30px;
+
+  font-weight: 700;
 }
